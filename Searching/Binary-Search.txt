@@ -1,0 +1,17 @@
+BINARY SEARCH WORKING:
+1. Start with the middle element: Compare the key value with the middle element of the array.
+2. Narrow down the search:
+   If the key value is equal to the middle element, the search is complete.
+   If the key value is less than the middle element, repeat the search on the left half of the array.
+   If the key value is greater than the middle element, repeat the search on the right half of the array.
+3. Repeat: Continue this process until the key value is found or the search interval is empty.
+
+Time Complexity:
+1.Best Case: O(1) - The key value is the middle element.
+2.Worst Case: O(log n) - The key value is at one of the ends or not present.
+3.Average Case: O(log n) - On average, the key value is somewhere in the middle.
+
+When to Use Binary Search:
+1.The list is sorted.
+2.You need efficient search performance.
+

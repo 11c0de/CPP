@@ -1,0 +1,15 @@
+LINEAR SEARCH WORKING:
+1.Start from the first element: Compare the key value with the first element of the list.
+2.Move to the next element: If the first element is not a match,move to the next element and Compare it with the key value.
+3.Repeat: Continue this process until the key value is found or the end of the list is reached.
+4.Return the result: If the key value is found,return its index.If the key value is not found,return -1.
+
+Time Complexity:
+1. Best case: O(1) - The key value is the first element in the list.
+2. Worst case: O(n) - The key value is the last element in the list or not present at all.
+3. Average case: O(n) - The key value is somewhere in the middle of the list.
+
+When to use Linear Search:
+1.The list is unsorted.
+2.The list is small.
+3.Simplicity is more important than efficiency.

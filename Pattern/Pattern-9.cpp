@@ -16,5 +16,4 @@ cout << j;
 }
 cout << endl;
 }
-
 }
